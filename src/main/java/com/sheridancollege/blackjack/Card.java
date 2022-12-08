@@ -11,8 +11,8 @@ public class Card {
 	 * @param value
 	 */
 	public Card(Suit suit, Value value) {
-		// TODO - implement Card.Card
-		throw new UnsupportedOperationException();
+		this.suit = suit;
+		this.value = value;
 	}
 
 	public Suit getSuit() {
@@ -28,8 +28,8 @@ public class Card {
 	}
 
 	public void getValue() {
-		// TODO - implement Card.getValue
-		throw new UnsupportedOperationException();
+		return value;
+		
 	}
 
 	/**
